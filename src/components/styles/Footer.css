@@ -1,0 +1,25 @@
+/* 🔥 Fire-Themed Footer */
+.custom-footer {
+    background: linear-gradient(45deg, #ff4500, #ff8c00, #ffd700);
+    background-size: 300% 300%;
+    animation: fireGradient 6s infinite alternate;
+    padding: 15px 0;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+    border-top: 2px solid #ff4500;
+    width: 100%;
+    position: relative; /* Change this if needed */
+    bottom: 0;
+  }
+  
+  /* 🔥 Gradient Animation */
+  @keyframes fireGradient {
+    0% { background-position: left; }
+    100% { background-position: right; }
+  }
+  
+
+  

@@ -1,0 +1,54 @@
+/* Full Height for Right Section */
+.gradient-section {
+    background: linear-gradient(45deg, #ff4500, #ff8c00, #ffd700);
+    min-height: 90vh;
+    margin-top: 11% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  /* Text color for dark gradient */
+  .gradient-section.text-white {
+    color: white;
+  }
+  
+  /* Form Styling */
+  input.form-control {
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background: linear-gradient(45deg, #ff4500, #ff8c00);
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(45deg, #e63900, #ff7518);
+  }
+  
+  /* Register Button */
+  .btn-outline-light {
+    border-color: white;
+    color: white;
+  }
+  
+  .btn-outline-light:hover {
+    background: white;
+    color: #ff4500;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .gradient-section {
+      min-height: 300px;
+ 
+    }
+  }
+
+  

@@ -1,0 +1,80 @@
+/* Centering Content */
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+  }
+  
+  /* 404 Text */
+  .error-title {
+    font-size: 100px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    animation: float 2s infinite ease-in-out;
+  }
+  
+  .zero {
+    display: inline-block;
+    color: #ffcc00;
+    font-size: 100px;
+    animation: bounce 1.5s infinite;
+  }
+  
+  /* Astronaut Near the Text */
+  .inline-astronaut {
+    width: 80px;
+    height: auto;
+    animation: spin 6s linear infinite, float 4s ease-in-out infinite;
+  }
+  
+  /* Buttons & Text */
+  .error-message {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .error-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    background: #ffcc00;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .home-button:hover {
+    background: #ffa500;
+    transform: scale(1.1);
+  }
+  
+  /* Animations */
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  

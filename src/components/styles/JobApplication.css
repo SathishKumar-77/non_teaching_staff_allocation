@@ -1,0 +1,33 @@
+.job-application {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 10%;    
+  }
+  
+  .card {
+    border-radius: 12px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+
+   /* Responsive */
+@media (max-width: 768px) {
+    .job-application {
+       
+
+        margin-top: 20%;    
+      }
+  }
+
+
+  

@@ -1,0 +1,37 @@
+.card {
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+/*   
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  }
+   */
+  .btn {
+    border-radius: 5px;
+  }
+
+
+  .manage{
+    margin-top: 10% !important;
+  }
+
+  .states{
+    margin-top: 30%;
+  }
+  
+
+  @media (max-width: 468px) {
+    .manage{
+        margin-top: 20% !important;
+      }
+    
+    .states{
+        margin-top: 5%;
+    }
+    .card{
+        
+    }
+      
+  }
